@@ -1,3 +1,7 @@
+
+# to support exFAT
+sudo apt-get install exfat-utils exfat-fuse
+
 #install curl
 sudo apt install curl
 
