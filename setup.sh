@@ -40,9 +40,27 @@ smartgit/bin/smartgit.sh
 smartgit/bin/add-menuitem.sh
 sudo rm smartgit-linux-20_2_5.tar.gz
 
+#postman
+sudo snap install postman
+
 # install robo3t
 sudo snap install robo3t-snap
 
+# vlc media player
+sudo snap install vlc
+
+#install skype
+sudo snap install skype
+
+#torrent client
+sudo snap install qbittorrent-arnatious
+
+#hubstaff time tracker
+cd ~
+wget https://hubstaff-production.s3.amazonaws.com/downloads/HubstaffClient/Builds/Release/1.5.17-52c95d23/Hubstaff-1.5.17-52c95d23.sh
+sudo chmod 777 ./Hubstaff-1.5.17-52c95d23.sh
+./Hubstaff-1.5.17-52c95d23.sh
+sudo rm ./Hubstaff-1.5.17-52c95d23.sh
 
 
 
