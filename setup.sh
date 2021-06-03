@@ -30,3 +30,27 @@ sudo npm install -g typescript
 
 #install git
 sudo apt install git
+
+
+#install smartgit
+cd ~
+wget https://www.syntevo.com/downloads/smartgit/smartgit-linux-20_2_5.tar.gz  #if this link expire goto https://www.syntevo.com/smartgit/download/ and right click on download and copy link
+tar xzf smartgit-linux-20_2_5.tar.gz
+smartgit/bin/smartgit.sh
+smartgit/bin/add-menuitem.sh
+sudo rm smartgit-linux-20_2_5.tar.gz
+
+# install robo3t
+sudo snap install robo3t-snap
+
+
+
+
+
+
+
+
+
+
+
+
