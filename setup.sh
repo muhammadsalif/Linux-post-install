@@ -1,10 +1,8 @@
-
 # to support exFAT
 sudo apt-get install exfat-utils exfat-fuse
 
 #install curl
 sudo apt install curl
-
 
 # instalng chrome
 sudo wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
@@ -30,7 +28,6 @@ sudo npm install -g typescript
 
 #install git
 sudo apt install git
-
 
 #install smartgit
 cd ~
