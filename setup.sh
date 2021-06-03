@@ -59,6 +59,8 @@ sudo chmod 777 ./Hubstaff-1.5.17-52c95d23.sh
 ./Hubstaff-1.5.17-52c95d23.sh
 sudo rm ./Hubstaff-1.5.17-52c95d23.sh
 
+#install figma
+sudo snap install figma-linux
 
 
 
