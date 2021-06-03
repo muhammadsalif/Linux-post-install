@@ -62,6 +62,9 @@ sudo rm ./Hubstaff-1.5.17-52c95d23.sh
 #install figma
 sudo snap install figma-linux
 
+#install arduino IDE
+sudo snap install arduino
+
 
 
 
