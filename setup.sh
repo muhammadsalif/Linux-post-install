@@ -13,21 +13,14 @@ sudo echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' 
 sudo apt-get update 
 sudo apt-get install google-chrome-stable
 
-# installing nodejs and npm 
+# installing nodejs LTS and npm
 sudo apt-get update
-sudo apt-get install nodejs
-sudo apt-get install npm
-nodejs -v
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+sudo apt-get install -y nodejs
+node -v
 
 # installing vscode
-curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
-sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
-sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
-
-sudo apt-get install apt-transport-https
-sudo apt-get update
-sudo apt-get install code # or code-insiders
-
+sudo snap install code --classic
 
 #install firebase
 sudo npm install firebase-tools -g
